@@ -5,7 +5,7 @@ from homeassistant.core import callback
 
 from .const import DOMAIN  # Import the domain of the integration
 
-@config_entries.HANDLERS.register(DOMAIN)
+"""@config_entries.HANDLERS.register(DOMAIN)"""
 class PrinterNotificationConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for Printer Notification."""
 
