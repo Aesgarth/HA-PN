@@ -4,6 +4,6 @@
   "version": "1.0",
   "documentation": "https://your.documentation.link",
   "dependencies": [],
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@yAesgarth"],
   "requirements": ["python-escpos"]
 }
