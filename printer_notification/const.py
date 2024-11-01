@@ -1,0 +1,1 @@
+DOMAIN = "printer_notification"
