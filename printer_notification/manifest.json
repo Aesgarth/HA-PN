@@ -2,8 +2,9 @@
   "domain": "printer_notification",
   "name": "Printer Notification",
   "version": "1.0",
-  "documentation": "https://your.documentation.link",
+  "documentation": "https://github.com/Aesgarth/HA-PN/tree/main",
   "dependencies": [],
-  "codeowners": ["@yAesgarth"],
-  "requirements": ["python-escpos"]
+  "codeowners": ["@yourusername"],
+  "requirements": ["python-escpos"],
+  "config_flow": true
 }
