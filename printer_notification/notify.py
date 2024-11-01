@@ -11,9 +11,9 @@ def get_service(hass, config, discovery_info=None):
 class PrinterNotificationService(BaseNotificationService):
     """Implementation of a notification service for the printer."""
 
-    def __init__(self):
-        # Set up connection to the printer
-        self.printer = Network('<printer_ip>')  # Replace with your printer's IP
+    def __init__(self, ip_address, port=9100):
+        # Connect to the network printer with user-defined IP and port
+        self.printer = Network(ip_address, port)
 
     def send_message(self, message="", **kwargs):
         """Send a message to the printer."""
