@@ -1,1 +1,9 @@
-
+{
+  "domain": "printer_notification",
+  "name": "Printer Notification",
+  "version": "1.0",
+  "documentation": "https://your.documentation.link",
+  "dependencies": [],
+  "codeowners": ["@yourusername"],
+  "requirements": ["python-escpos"]
+}
